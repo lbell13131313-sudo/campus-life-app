@@ -2,3 +2,15 @@
     border: 3px solid black; 
     background-color: lightblue; 
 }
+
+/* grid container */
+.header-bar {
+    display: grid;
+    grid-template-columns: 80px auto;
+}
+
+/* class for an unordered list that has the bullets centered with the text */
+.centered-list {
+    text-align: center;
+    list-style-position: inside;
+}
