@@ -10,7 +10,8 @@
 }
 
 /* class for an unordered list that has the bullets centered with the text */
-.centered-list {
+/* .centered-list {
     text-align: center;
     list-style-position: inside;
-}
+} */
+/* didn't actually work as intended */
