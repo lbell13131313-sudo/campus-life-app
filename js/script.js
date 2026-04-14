@@ -1,8 +1,8 @@
-function goHome() { // sends the user back to the home page
-    window.location.href = "home.html"; 
-}
+//function goHome() { // sends the user back to the home page
+    //window.location.href = "home.html"; 
+//}
 
 // button for the home page
-const homeButton = document.querySelector("#home-btn"); 
+//const homeButton = document.getElementById("#home-btn"); 
 
-homeButton.addEventListener("click", goHome);
+//homeButton.addEventListener("click", goHome);
