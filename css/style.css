@@ -8,6 +8,10 @@
     flex-direction: row;
 }
 
+body {
+    text-align: center;
+}
+
 /* class for an unordered list that has the bullets centered with the text */
 /* .centered-list {
     text-align: center;

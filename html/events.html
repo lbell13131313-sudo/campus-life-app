@@ -3,22 +3,25 @@
     <!--the home page for the college-->
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href ="./css/style.css">
+        <link rel="stylesheet" href ="/css/style.css">
     </head>
     
     <body>
         <!--Header that is used in all 3 pages for unity-->
-        <header>
+        <header id="top">
             <!--used flex row to get the two images to be on the same line-->
-            <div class="flex-row text-center" style="background-color: #25496b;">
+            <div class="flex-row text-center">
                 <!--Home button picture returns the user to home.html-->
-                <a href="home.html"><img src="/images/whitehome.png" alt="Home Page Button" width="5%"></a>
+                <button id="home-btn" class="btn">
+                    <img src="/images/whitehome.png" alt="Home Page Button" width="20%">
+                </button>
+                <!--<a href="home.html"><img src="/images/whitehome.png" alt="Home Page Button" width="5%"></a>-->
                 <img src="/images/centenarylogo.jpeg" alt="Centenary University Logo" width="15%">
             </div>
         </header>
 
         <!--Information on upcoming campus events-->
-        <main class="text-center">
+        <main>
             <h1>Campus Events</h1>
 
             <div class="row">
@@ -42,8 +45,10 @@
             </ul>
         </main>
 
-        <footer class = "text-center">
+        <footer>
             <h2>HOPE TO SEE YOU THERE!!!</h2>
         </footer>
+
+        <script src = "/js/script.js"></script>
     </body>
 </html>
