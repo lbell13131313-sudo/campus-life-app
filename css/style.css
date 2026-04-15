@@ -3,10 +3,9 @@
     background-color: #25496b; 
 }
 
-/* grid container */
-.header-bar {
-    display: grid;
-    grid-template-columns: 80px auto;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 /* class for an unordered list that has the bullets centered with the text */
