@@ -1,11 +1,11 @@
+/* not currently being used */
 #top {
-    border: 3px solid black; 
     background-color: #25496b; 
 }
 
 .flex-row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 /* class for an unordered list that has the bullets centered with the text */
