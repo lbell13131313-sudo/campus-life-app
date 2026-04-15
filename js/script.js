@@ -1,4 +1,4 @@
 // button for sending the user back to the home page
 document.getElementById("home-btn").onclick = function() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 };
