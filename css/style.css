@@ -1,13 +1,15 @@
-/* not currently being used */
+/* style for the header of the page */
 #top {
     background-color: #25496b; 
 }
 
+/* for the header as well */
 .flex-row {
     display: flex;
     flex-direction: row;
 }
 
+/* ensures everything stays centered */
 body {
     text-align: center;
 }
