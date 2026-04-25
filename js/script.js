@@ -15,7 +15,8 @@ async function getWeather() {
     try {
         const response = await fetch(url);
         const data = await response.json();
-
+        
+        // in case of error
         if (data.error) {
             alert('Error: ' + data.error.info);
             return;
@@ -29,6 +30,7 @@ async function getWeather() {
             <img src="${data.current.weather_icons[0]}" alt="Weather icon">
         `;
     } catch (error) {
+        // if there is an error, this will print out into the console
         console.error('Fetch error:', error);
     }
 }
