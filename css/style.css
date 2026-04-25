@@ -15,6 +15,11 @@ body {
     text-align: center;
 }
 
+.text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+}
+
 /* class for an unordered list that has the bullets centered with the text */
 /* .centered-list {
     text-align: center;
