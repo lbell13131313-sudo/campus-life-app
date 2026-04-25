@@ -5,9 +5,11 @@ document.getElementById("home-btn").onclick = function() {
 
 // for the weather api integration
 async function getWeather() {
-    const apiKey = 'YOUR_ACCESS_KEY'; // Replace with your actual key
-    const city = "hackettstown";
-    const url = `http://weatherstack.com{apiKey}&query=${city}`;
+    const apiKey = '1ddbc56188878aee463d4182301720e8';
+    const city = "hackettstown, new jersey";
+    const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
+
+    // http://weatherstack.com{apiKey}&query=${city}
 
     try {
         const response = await fetch(url);
