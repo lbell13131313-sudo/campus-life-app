@@ -11,6 +11,7 @@ async function getWeather() {
     const units = "f";
     // the url that the weather information will be grabbed from
     const url = `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}&units=${units}`;
+    // had to use the cors-anywhere link because the deployment won't read http: and only will read https:
 
     try {
         const response = await fetch(url);
