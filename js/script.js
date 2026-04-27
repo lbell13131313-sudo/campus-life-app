@@ -10,7 +10,7 @@ async function getWeather() {
     // changes the units to fahrenheit instead of celsius
     const units = "f";
     // the url that the weather information will be grabbed from
-    const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}&units=${units}`;
+    const url = `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}&units=${units}`;
 
     try {
         const response = await fetch(url);
